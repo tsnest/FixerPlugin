@@ -1,0 +1,18 @@
+name: Fixer
+main: ru.quickston.fixer.Main
+version: 2.3
+author: Quickston
+website: http://minecraft-hosting.ru/
+
+commands:
+   fixer:
+       description: Info.
+       usage: /<command>
+       aliases: [fx]
+permissions:
+    fixer.reload:
+        description: allow use reload command.
+    fixer.wgblocksbypass:
+        description: allow place blocked blocks without WG region.
+    fixer.dropbypass:
+        description: bypass for check items drop.
